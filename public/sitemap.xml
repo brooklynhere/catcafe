@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2026-02-10T13:02:51-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-10T13:02:51-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cats/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cats/gozer/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cats/misty/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cats/snowball/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cats/socks/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cats/sunny/</loc>
+  </url><url>
+    <loc>http://localhost:1313/cats/tabitha/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

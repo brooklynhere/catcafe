@@ -1,0 +1,35 @@
+{{define "header"}}
+
+  <header>
+    <div class="banner">
+
+      <div class="banner-inner">
+        <h4><i>A Paw-some Experience</i></h4>
+        <h1>Cats, Cuddles, Coffee</h1>
+      </div>
+
+    </div>
+
+  </header>
+
+{{end}}
+
+{{ define "main" }}
+
+  <body>
+    <div class="cats">
+      <h2>Meet our Cats</h2>
+      <p>
+        Neko Atsume Cafe is home to many adorable cats, browse our gallery to get to know them!
+      </p>
+      <div class="cats-grid">
+        {{ range where .Site.RegularPages "Section" "cats" }}
+          {{ partial "card.html" . }}
+        {{ end }}
+      </div>
+    </div>
+
+
+  </body>
+
+{{end}}

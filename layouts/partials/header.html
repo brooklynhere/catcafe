@@ -1,0 +1,32 @@
+<header class="site-header">
+  <div class="nav-container">
+
+    <!-- Logo -->
+    <div class="brand">
+        <a href="{{ "/" | relURL }}">
+          <img src="{{ "images/logo.png" | relURL }}" alt="Site Logo">
+        </a>
+        <!-- Site Title -->
+          <h1>
+            <a href="{{ "/" | relURL }}">
+              {{ .Site.Title }}
+            </a>
+          </h1>
+    </div>
+
+    <!-- Hamburger -->
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <!-- Hugo Menu -->
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+  </div>
+</header>

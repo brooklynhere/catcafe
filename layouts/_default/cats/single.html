@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<section class="banner banner-cats">
+  <h1>{{ .Title }}</h1>
+</section>
+
+<article class="cat-single">
+<div class="cat-information">
+  
+  <div class="cat-image">
+    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+  </div>
+
+  <div class="cat-details">
+    <p class="cat-details-box">Status: <br><br> <strong>{{ .Params.status }}</strong></p>
+    <p class="cat-details-box">Gender:<br><br> <strong>{{ .Params.gender }}</strong></p>
+    <p class="cat-details-box">DOB: <br><br> <strong>{{ .Params.dob }}</strong></p>
+  </div>
+
+</div>
+
+
+
+  <div class="cat-description">
+    {{ .Content }}
+
+      <div class="back-button">
+    <a href="/cats/" class="btn">← Back to all Kitties</a>
+  </div>
+
+  </div>
+
+</article>
+
+{{ end }}

@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<script>
+function filterCats(category) {
+  const cats = document.querySelectorAll(".cat-item");
+
+  cats.forEach(cat => {
+    if (category === "all") {
+      cat.style.display = "block";
+    } else {
+      cat.style.display =
+        cat.dataset.status === category ? "block" : "none";
+    }
+  });
+}
+</script>
+
+
+<section class="banner banner-cats">
+  <h1>Our Cats</h1>
+</section>
+
+<section class="cat-filters">
+  <h3><p>Get to know your kitties before you meet them.</p></h3>
+  <button onclick="filterCats('all')">All</button>
+  <button onclick="filterCats('Permanent Cat')">Permanent Cats</button>
+  <button onclick="filterCats('Adoptable Cat')">Adoptable Cats</button>
+</section>
+
+<section class="cats-grid" id="catsGrid">
+  {{ range .Pages }}
+    <div class="cat-item" data-status="{{ .Params.status }}">
+      {{ partial "card.html" . }}
+    </div>
+  {{ end }}
+</section>
+
+
+
+
+
+{{ end }}
