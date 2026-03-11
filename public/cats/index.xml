@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cats on Neko Atsume Cafe</title>
-    <link>http://localhost:1313/cats/</link>
+    <link>//localhost:1313/cats/</link>
     <description>Recent content in Cats on Neko Atsume Cafe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/cats/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/cats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gozer</title>
-      <link>http://localhost:1313/cats/gozer/</link>
+      <link>//localhost:1313/cats/gozer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cats/gozer/</guid>
+      <guid>//localhost:1313/cats/gozer/</guid>
       <description>&lt;p&gt;Breed: Orange Tabby Domestic Shorthair&lt;/p&gt;</description>
     </item>
     <item>
       <title>Misty</title>
-      <link>http://localhost:1313/cats/misty/</link>
+      <link>//localhost:1313/cats/misty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cats/misty/</guid>
+      <guid>//localhost:1313/cats/misty/</guid>
       <description>&lt;p&gt;Misty loves cuddles and chasing laser pointers.&#xA;She is very social and good with kids.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Snowball</title>
-      <link>http://localhost:1313/cats/snowball/</link>
+      <link>//localhost:1313/cats/snowball/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cats/snowball/</guid>
+      <guid>//localhost:1313/cats/snowball/</guid>
       <description>&lt;p&gt;Snowball is a sweet, affectionate young kitten with a heart as soft as her fur. She greets everyone with bright eyes and a gentle purr the moment they walk into the room, making it impossible not to fall for her.&lt;/p&gt;&#xA;&lt;p&gt;Cuddles are Snowball&amp;rsquo;s love language. She happily curls up in any available lap, soaking up affection like sunshine. Endearingly needy in the best way, she follows her favorite people around, offering tiny mews as a reminder that it’s time for more attention.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Socks</title>
-      <link>http://localhost:1313/cats/socks/</link>
+      <link>//localhost:1313/cats/socks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cats/socks/</guid>
+      <guid>//localhost:1313/cats/socks/</guid>
       <description></description>
     </item>
     <item>
       <title>Sunny</title>
-      <link>http://localhost:1313/cats/sunny/</link>
+      <link>//localhost:1313/cats/sunny/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cats/sunny/</guid>
+      <guid>//localhost:1313/cats/sunny/</guid>
       <description>&lt;p&gt;Breed: Orange Tabby Domestic Shorthair&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tabitha</title>
-      <link>http://localhost:1313/cats/tabitha/</link>
+      <link>//localhost:1313/cats/tabitha/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cats/tabitha/</guid>
+      <guid>//localhost:1313/cats/tabitha/</guid>
       <description>&lt;p&gt;Tabitha loves cuddles and chasing laser pointers.&#xA;She is very social and good with kids.&lt;/p&gt;</description>
     </item>
   </channel>

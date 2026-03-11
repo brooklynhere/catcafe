@@ -1,3 +1,27 @@
 <div class = 'footer'>
+
+    <div class = 'footer-content'>
+
+        <div class = 'footer-links'>
+            <ul>
+            {{ range .Site.Menus.main }}
+                <li>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+            {{ end }}
+            </ul>
+        </div>
+
+        <div class = 'footer-map'>
+            <iframe
+                src="https://www.google.com/maps?q=Lethbridge+Alberta&output=embed"
+                width="400"
+                height="230"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
 <p>Copyright {{ now.Year }}. All rights reserved.</p>
 </div>
