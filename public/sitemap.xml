@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2026-02-10T13:02:51-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2026-02-10T13:02:51-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/cats/</loc>
+    <loc>//localhost:1313/cats/</loc>
   </url><url>
-    <loc>http://localhost:1313/cats/gozer/</loc>
+    <loc>//localhost:1313/cats/gozer/</loc>
   </url><url>
-    <loc>http://localhost:1313/cats/misty/</loc>
+    <loc>//localhost:1313/cats/misty/</loc>
   </url><url>
-    <loc>http://localhost:1313/cats/snowball/</loc>
+    <loc>//localhost:1313/cats/snowball/</loc>
   </url><url>
-    <loc>http://localhost:1313/cats/socks/</loc>
+    <loc>//localhost:1313/cats/socks/</loc>
   </url><url>
-    <loc>http://localhost:1313/cats/sunny/</loc>
+    <loc>//localhost:1313/cats/sunny/</loc>
   </url><url>
-    <loc>http://localhost:1313/cats/tabitha/</loc>
+    <loc>//localhost:1313/cats/tabitha/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
