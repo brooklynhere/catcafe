@@ -1,11 +1,10 @@
 {{ define "main" }}
 
 <section class="banner banner-cats">
-  <h1>Our Cats</h1>
+  <h1>{{ .Title | title }} Cats</h1>
 </section>
 
 <section class="cat-filters">
-
 
   <h3><p>Get to know your kitties before you meet them.</p></h3>
 
@@ -16,12 +15,11 @@
       {{ .Page.Title | title }}
     </a>
   {{ end }}
+
 </section>
 <br>
 <section class="cats-grid">
-  {{/* using .RegularPages instead of .Pages to that /adoptable/ and /permanent/ title pages don't show up in the main list */}}
-
-  {{ range .RegularPages }}
+  {{ range .Pages }}
     {{ partial "card.html" . }}
   {{ end }}
 </section>

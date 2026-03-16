@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Status on Neko Atsume Cafe</title>
+    <link>//localhost:1313/status/</link>
+    <description>Recent content in Status on Neko Atsume Cafe</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/status/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adoptable</title>
+      <link>//localhost:1313/status/adoptable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/status/adoptable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Permanent</title>
+      <link>//localhost:1313/status/permanent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/status/permanent/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

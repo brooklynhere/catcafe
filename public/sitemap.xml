@@ -8,7 +8,7 @@
     <loc>//localhost:1313/</loc>
     <lastmod>2026-02-10T13:02:51-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>//localhost:1313/status/adoptable/</loc>
   </url><url>
     <loc>//localhost:1313/cats/</loc>
   </url><url>
@@ -16,14 +16,16 @@
   </url><url>
     <loc>//localhost:1313/cats/misty/</loc>
   </url><url>
+    <loc>//localhost:1313/status/permanent/</loc>
+  </url><url>
     <loc>//localhost:1313/cats/snowball/</loc>
   </url><url>
     <loc>//localhost:1313/cats/socks/</loc>
   </url><url>
+    <loc>//localhost:1313/status/</loc>
+  </url><url>
     <loc>//localhost:1313/cats/sunny/</loc>
   </url><url>
     <loc>//localhost:1313/cats/tabitha/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

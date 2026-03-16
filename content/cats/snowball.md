@@ -4,7 +4,7 @@ draft = false
 
 dob = "2025-06-05"
 gender = "Female"
-status = "Permanent Cat"
+status = ["permanent"]
 image = "images/cats/Snowball.webp"
 +++
 Snowball is a sweet, affectionate young kitten with a heart as soft as her fur. She greets everyone with bright eyes and a gentle purr the moment they walk into the room, making it impossible not to fall for her.
