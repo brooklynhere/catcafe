@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
 
 
-<link rel="stylesheet" href="//localhost:1313/css/style.min.1cae895b6985fa54640a402f8e134aa6e685500a9b0b71234c16d336edc95af0.css" integrity="sha256-HK6JW2mF&#43;lRkCkAvjhNKpuaFUAqbC3EjTBbTNu3JWvA=" media="screen">
+<link rel="stylesheet" href="//localhost:1313/css/style.min.3faf4e1f96fe93613c8055dd4067b01cf058bf4f7d14119a3055744dc95b8c9d.css" integrity="sha256-P69OH5b&#43;k2E8gFXdQGewHPBYv099FBGaMFV0TclbjJ0=" media="screen">
 </head>
 
 
@@ -77,106 +77,141 @@ function toggleMenu() {
   
     
 
-<script>
-function filterCats(category) {
-  const cats = document.querySelectorAll(".cat-item");
-
-  cats.forEach(cat => {
-    if (category === "all") {
-      cat.style.display = "block";
-    } else {
-      cat.style.display =
-        cat.dataset.status === category ? "block" : "none";
-    }
-  });
-}
-</script>
-
-
 <section class="banner banner-cats">
   <h1>Our Cats</h1>
 </section>
 
 <section class="cat-filters">
-  <h3><p>Get to know your kitties before you meet them.</p></h3>
-  <button onclick="filterCats('all')">All</button>
-  <button onclick="filterCats('Permanent Cat')">Permanent Cats</button>
-  <button onclick="filterCats('Adoptable Cat')">Adoptable Cats</button>
-</section>
 
-<section class="cats-grid" id="catsGrid">
+
+  <h3><p>Get to know your kitties before you meet them.</p></h3>
+
+  <a href="/cats/" class="btn">All</a>
+
   
-    <div class="cat-item" data-status="Permanent Cat">
-      <div class="card">
+    <a href="/status/adoptable/" class="btn">
+      Adoptable
+    </a>
+  
+    <a href="/status/permanent/" class="btn">
+      Permanent
+    </a>
+  
+</section>
+<br>
+<section class="cats-grid">
+  
+
+  
+    <div class="card">
   <a href="/cats/gozer/">
     <img src="/images/cats/Gozer.webp" alt="Gozer">
     <h4>Gozer</h4>
-    <p class="status">Permanent Cat</p>
+
+    <p class="status">
+
+      
+
+      
+        Permanent Cat
+      
+      
+    </p>
   </a>
 </div>
 
-    </div>
   
-    <div class="cat-item" data-status="Adoptable Cat">
-      <div class="card">
+    <div class="card">
   <a href="/cats/misty/">
     <img src="/images/cats/Misty.webp" alt="Misty">
     <h4>Misty</h4>
-    <p class="status">Adoptable Cat</p>
+
+    <p class="status">
+
+      
+
+      
+        Adoptable Cat
+      
+      
+    </p>
   </a>
 </div>
 
-    </div>
   
-    <div class="cat-item" data-status="Permanent Cat">
-      <div class="card">
+    <div class="card">
   <a href="/cats/snowball/">
     <img src="/images/cats/Snowball.webp" alt="Snowball">
     <h4>Snowball</h4>
-    <p class="status">Permanent Cat</p>
+
+    <p class="status">
+
+      
+
+      
+        Permanent Cat
+      
+      
+    </p>
   </a>
 </div>
 
-    </div>
   
-    <div class="cat-item" data-status="Adoptable Cat">
-      <div class="card">
+    <div class="card">
   <a href="/cats/socks/">
     <img src="/images/cats/Socks.webp" alt="Socks">
     <h4>Socks</h4>
-    <p class="status">Adoptable Cat</p>
+
+    <p class="status">
+
+      
+
+      
+        Adoptable Cat
+      
+      
+    </p>
   </a>
 </div>
 
-    </div>
   
-    <div class="cat-item" data-status="Permanent Cat">
-      <div class="card">
+    <div class="card">
   <a href="/cats/sunny/">
     <img src="/images/cats/Sunny.webp" alt="Sunny">
     <h4>Sunny</h4>
-    <p class="status">Permanent Cat</p>
+
+    <p class="status">
+
+      
+
+      
+        Permanent Cat
+      
+      
+    </p>
   </a>
 </div>
 
-    </div>
   
-    <div class="cat-item" data-status="Adoptable Cat">
-      <div class="card">
+    <div class="card">
   <a href="/cats/tabitha/">
     <img src="/images/cats/Tabitha.webp" alt="Tabitha">
     <h4>Tabitha</h4>
-    <p class="status">Adoptable Cat</p>
+
+    <p class="status">
+
+      
+
+      
+        Adoptable Cat
+      
+      
+    </p>
   </a>
 </div>
 
-    </div>
   
 </section>
-
-
-
-
 
 
 
@@ -211,7 +246,14 @@ function filterCats(category) {
         </div>
 
         <div class = 'footer-map'>
-
+            <iframe
+                src="https://www.google.com/maps?q=Lethbridge+Alberta&output=embed"
+                width="350"
+                height="200"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
         </div>
     </div>
 <p>Copyright 2026. All rights reserved.</p>

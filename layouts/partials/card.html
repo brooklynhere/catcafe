@@ -2,6 +2,16 @@
   <a href="{{ .RelPermalink }}">
     <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
     <h4>{{ .Title }}</h4>
-    <p class="status">{{ .Params.status }}</p>
+
+    <p class="status">
+
+      {{/* Instead of printing the list directly through {{ .Params.status }},
+      I'm looping through the list to avoid printing the brackets and quotes that come with a list or status = ["adoptable"] array. */}}
+
+      {{ range .Params.status }}
+        {{ . | title }} Cat
+      {{ end }}
+      
+    </p>
   </a>
 </div>

@@ -12,9 +12,22 @@
   </div>
 
   <div class="cat-details">
-    <p class="cat-details-box">Status: <br><br> <strong>{{ .Params.status }}</strong></p>
+    <p class="cat-details-box">Status: <br><br>
+      
+      <strong>
+
+      {{/* Instead of printing the list directly through {{ .Params.status }},
+      I'm looping through the list to avoid printing the brackets and quotes that come with a list or status = ["adoptable"] array. */}}
+
+      {{ range .Params.status }}
+        {{ . | title }} Cat
+      {{ end }}
+
+    </strong></p>
+
     <p class="cat-details-box">Gender:<br><br> <strong>{{ .Params.gender }}</strong></p>
     <p class="cat-details-box">DOB: <br><br> <strong>{{ .Params.dob }}</strong></p>
+
   </div>
 
 </div>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adoptable on Neko Atsume Cafe</title>
+    <link>//localhost:1313/status/adoptable/</link>
+    <description>Recent content in Adoptable on Neko Atsume Cafe</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/status/adoptable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Misty</title>
+      <link>//localhost:1313/cats/misty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/misty/</guid>
+      <description>&lt;p&gt;Misty loves cuddles and chasing laser pointers.&#xA;She is very social and good with kids.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Socks</title>
+      <link>//localhost:1313/cats/socks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/socks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tabitha</title>
+      <link>//localhost:1313/cats/tabitha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/tabitha/</guid>
+      <description>&lt;p&gt;Tabitha loves cuddles and chasing laser pointers.&#xA;She is very social and good with kids.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

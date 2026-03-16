@@ -257,9 +257,10 @@ color:white;
   color: white;
   text-decoration: none;
   padding: 15px 30px;
-  border-radius: 8px;
+  border-radius: 10px;
   font-weight: bold;
   transition: 0.3s ease;
+  margin-left: 15px;
 }
 
 .btn:hover {

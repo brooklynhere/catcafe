@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Permanent on Neko Atsume Cafe</title>
+    <link>//localhost:1313/status/permanent/</link>
+    <description>Recent content in Permanent on Neko Atsume Cafe</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/status/permanent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gozer</title>
+      <link>//localhost:1313/cats/gozer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/gozer/</guid>
+      <description>&lt;p&gt;Breed: Orange Tabby Domestic Shorthair&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Snowball</title>
+      <link>//localhost:1313/cats/snowball/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/snowball/</guid>
+      <description>&lt;p&gt;Snowball is a sweet, affectionate young kitten with a heart as soft as her fur. She greets everyone with bright eyes and a gentle purr the moment they walk into the room, making it impossible not to fall for her.&lt;/p&gt;&#xA;&lt;p&gt;Cuddles are Snowball&amp;rsquo;s love language. She happily curls up in any available lap, soaking up affection like sunshine. Endearingly needy in the best way, she follows her favorite people around, offering tiny mews as a reminder that it’s time for more attention.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sunny</title>
+      <link>//localhost:1313/cats/sunny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/sunny/</guid>
+      <description>&lt;p&gt;Breed: Orange Tabby Domestic Shorthair&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
