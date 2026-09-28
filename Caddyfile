@@ -1,0 +1,11 @@
+:80 {
+    root * /usr/share/caddy
+    file_server
+    encode gzip zstd
+
+    # using hugo's 404 page for missing files
+    handle_errors {
+        rewrite * /404.html
+        file_server
+    }
+}
