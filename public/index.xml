@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Neko Atsume Cafe</title><link>/</link><description>Recent content on Neko Atsume Cafe</description><generator>Hugo</generator><language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Gozer</title><link>/cats/gozer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cats/gozer/</guid><description>&lt;p&gt;Breed: Orange Tabby Domestic Shorthair&lt;/p&gt;</description></item><item><title>Misty</title><link>/cats/misty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cats/misty/</guid><description>&lt;p&gt;Misty loves cuddles and chasing laser pointers.&#10;She is very social and good with kids.&lt;/p&gt;</description></item><item><title>Snowball</title><link>/cats/snowball/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cats/snowball/</guid><description>&lt;p&gt;Snowball is a sweet, affectionate young kitten with a heart as soft as her fur. She greets everyone with bright eyes and a gentle purr the moment they walk into the room, making it impossible not to fall for her.&lt;/p&gt;&#10;&lt;p&gt;Cuddles are Snowball&amp;rsquo;s love language. She happily curls up in any available lap, soaking up affection like sunshine. Endearingly needy in the best way, she follows her favorite people around, offering tiny mews as a reminder that it’s time for more attention.&lt;/p&gt;</description></item><item><title>Socks</title><link>/cats/socks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cats/socks/</guid><description/></item><item><title>Sunny</title><link>/cats/sunny/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cats/sunny/</guid><description>&lt;p&gt;Breed: Orange Tabby Domestic Shorthair&lt;/p&gt;</description></item><item><title>Tabitha</title><link>/cats/tabitha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/cats/tabitha/</guid><description>&lt;p&gt;Tabitha loves cuddles and chasing laser pointers.&#10;She is very social and good with kids.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neko Atsume Cafe</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Neko Atsume Cafe</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our Little Cat Cafe</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;a-cafe-with-room-for-whiskers&#34;&gt;A cafe with room for whiskers&lt;/h2&gt;&#xA;&lt;p&gt;Neko Atsume Cafe is a cozy neighborhood stop for coffee lovers and cat people alike. Come in for a warm drink, settle into a comfortable corner, and let the cats set the pace.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-cats-come-first&#34;&gt;The cats come first&lt;/h2&gt;&#xA;&lt;p&gt;Every cat has their own favorite perch, pace, and way of saying hello. We keep the cafe calm and give our resident cats plenty of choice and space, so a good visit always starts with treating them gently.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gozer</title>
+      <link>//localhost:1313/cats/gozer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/gozer/</guid>
+      <description>&lt;p&gt;Breed: Orange Tabby Domestic Shorthair&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Misty</title>
+      <link>//localhost:1313/cats/misty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/misty/</guid>
+      <description>&lt;p&gt;Misty loves cuddles and chasing laser pointers.&#xA;She is very social and good with kids.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Snowball</title>
+      <link>//localhost:1313/cats/snowball/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/snowball/</guid>
+      <description>&lt;p&gt;Snowball is a sweet, affectionate young kitten with a heart as soft as her fur. She greets everyone with bright eyes and a gentle purr the moment they walk into the room, making it impossible not to fall for her.&lt;/p&gt;&#xA;&lt;p&gt;Cuddles are Snowball&amp;rsquo;s love language. She happily curls up in any available lap, soaking up affection like sunshine. Endearingly needy in the best way, she follows her favorite people around, offering tiny mews as a reminder that it’s time for more attention.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Socks</title>
+      <link>//localhost:1313/cats/socks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/socks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sunny</title>
+      <link>//localhost:1313/cats/sunny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/sunny/</guid>
+      <description>&lt;p&gt;Breed: Orange Tabby Domestic Shorthair&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tabitha</title>
+      <link>//localhost:1313/cats/tabitha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cats/tabitha/</guid>
+      <description>&lt;p&gt;Tabitha loves cuddles and chasing laser pointers.&#xA;She is very social and good with kids.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

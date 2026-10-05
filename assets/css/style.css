@@ -267,6 +267,79 @@ color:white;
   background-color: #b8860b;
 }
 
+.about-banner {
+  height: 360px;
+  padding: 50px 24px 0;
+  line-height: 1.5;
+}
+
+.about-banner-copy {
+  max-width: 760px;
+  color: rgb(255, 241, 182);
+}
+
+.about-banner-copy h1 {
+  margin: 8px 0;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.about-banner-copy p {
+  font-size: 1.15rem;
+}
+
+.about-banner-copy .about-eyebrow {
+  margin: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.about-page {
+  background-color: #9f7f29;
+  padding: 48px 20px 64px;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 36px clamp(22px, 6vw, 64px);
+  border-radius: 8px;
+  background-color: rgb(255, 241, 182);
+  color: #38240f;
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+.about-content h2 {
+  margin: 24px 0 8px;
+  color: #974e0e;
+}
+
+.about-content h2:first-child {
+  margin-top: 0;
+}
+
+.about-content a:not(.btn) {
+  color: #713908;
+  font-weight: 800;
+}
+
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.about-actions .btn {
+  margin-left: 0;
+}
+
+.about-text-link {
+  color: #713908;
+  font-weight: 800;
+}
+
 
 @media (max-width: 700px) {
   
@@ -310,4 +383,13 @@ color:white;
   flex-direction: column;
   gap: 1px;
 }
+
+  .about-banner {
+    height: 340px;
+  }
+
+  .about-content {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
 }

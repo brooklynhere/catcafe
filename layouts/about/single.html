@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<section class="banner banner-cats about-banner">
+  <div class="about-banner-copy">
+    <p class="about-eyebrow">A little more about us</p>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description }}</p>
+  </div>
+</section>
+
+<main class="about-page">
+  <article class="about-content">
+    {{ .Content }}
+    <nav class="about-actions" aria-label="Explore the cafe">
+      <a class="btn" href="{{ "/cats/" | relURL }}">Meet the cats</a>
+      <a class="about-text-link" href="{{ "/events/" | relURL }}">See upcoming events</a>
+    </nav>
+  </article>
+</main>
+
+{{ end }}
