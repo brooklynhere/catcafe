@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  },
+  "overrides": {
+    "@parcel/watcher": "^2.6.0"
+  }
+}
